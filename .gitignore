@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local database configuration
+python/db_config.py
+
+# GIS / local data
+*.gdb/
+*.gpkg
+*.tif
+*.tiff
+*.img
+*.dwg
+*.dxf
+
+# Large tile datasets
+tiles/*/
+*.mbtiles
+
+# IDE / OS
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
